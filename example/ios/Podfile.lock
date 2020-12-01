@@ -1,0 +1,39 @@
+PODS:
+  - Flutter (1.0.0)
+  - flutter_mapbox_native (0.0.1):
+    - Flutter
+    - Mapbox-iOS-SDK (~> 6.2.1)
+  - flutter_plugin_android_lifecycle (0.0.1):
+    - Flutter
+  - Mapbox-iOS-SDK (6.2.1):
+    - MapboxMobileEvents (~> 0.10.4)
+  - MapboxMobileEvents (0.10.4)
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - flutter_mapbox_native (from `.symlinks/plugins/flutter_mapbox_native/ios`)
+  - flutter_plugin_android_lifecycle (from `.symlinks/plugins/flutter_plugin_android_lifecycle/ios`)
+
+SPEC REPOS:
+  trunk:
+    - Mapbox-iOS-SDK
+    - MapboxMobileEvents
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  flutter_mapbox_native:
+    :path: ".symlinks/plugins/flutter_mapbox_native/ios"
+  flutter_plugin_android_lifecycle:
+    :path: ".symlinks/plugins/flutter_plugin_android_lifecycle/ios"
+
+SPEC CHECKSUMS:
+  Flutter: 0e3d915762c693b495b44d77113d4970485de6ec
+  flutter_mapbox_native: c16aff59f9665bbd9a17dfedd3605a56e81a2855
+  flutter_plugin_android_lifecycle: dc0b544e129eebb77a6bfb1239d4d1c673a60a35
+  Mapbox-iOS-SDK: c5a2ec3a3a0a77ee0ba78f91380e83898cb6aa41
+  MapboxMobileEvents: 3dc72ea23e62d4afd64d3242f04686405b4a0e98
+
+PODFILE CHECKSUM: 2609452b760cd11039b14039a86564367a3d8ab9
+
+COCOAPODS: 1.10.0.rc.1
